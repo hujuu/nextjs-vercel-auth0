@@ -1,4 +1,7 @@
-export default MySsrPage = () => <></>;
+export default MySsrPage = () =>
+  function SsrPage() {
+    return <></>;
+  };
 
 const getFullReturnTo = (ctx) => {
   // TODO: implement getFullReturnTo based on the ctx.resolvedUrl, ctx.locale
